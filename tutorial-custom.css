@@ -1,0 +1,47 @@
+.tutorial-content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tutorial-welcome, .tutorial-steps, .tutorial-resources {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.tutorial-steps ol {
+    padding-left: 20px;
+}
+
+.tutorial-steps li {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.tutorial-steps li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.tutorial-resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tutorial-resources li {
+    margin-bottom: 10px;
+}
+
+.tutorial-resources a {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.tutorial-resources a:hover {
+    text-decoration: underline;
+}
